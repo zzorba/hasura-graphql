@@ -1,3 +1,3 @@
-FROM hasura/graphql-engine:v2.11.2
+FROM hasura/graphql-engine:v2.15.0
 
 CMD graphql-engine serve --server-port $PORT
