@@ -1,3 +1,3 @@
-FROM hasura/graphql-engine:v2.15.2
+FROM hasura/graphql-engine:v2.16.1
 
-CMD graphql-engine serve --server-port $PORT
+CMD graphql-engine serve --server-port $PORT --infer-function-permissions false
